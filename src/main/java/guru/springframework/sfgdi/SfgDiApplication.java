@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 /* without ComponentScan application could not find pet services and fails */
 @ComponentScan(basePackages = {"guru.springframework.sfgdi","com.springframework.pets"})
+
 @SpringBootApplication
 public class SfgDiApplication {
 
